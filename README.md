@@ -17,18 +17,16 @@
 - 一份 REPORT.md，总结了 L2 误差、稀疏度和推荐超参数  
 - 一份 paper_draft.md，是准备投稿用的草稿
 
-这个仓库的目标不是炫技，而是留下一个真实的学习过程：  
-我会把现在能跑通、验证过的结果都记录下来，将来给自己和别人参考。
-## 快速开始
+是留下一个真实的学习过程：  
+我会把现在能跑通、验证过的结果都记录下来, 参考
 
-### 环境需求
+环境需求
 
 - Python 3.10+
 - PyTorch（支持 CUDA）
 - 一张支持 CUDA 的显卡（例如 RTX 3050）
 
-### 安装步骤
-
+安装步骤
 ```bash
 git clone https://github.com/你的用户名/maxwell-pinn-mvp.git
 cd maxwell-pinn-mvp
