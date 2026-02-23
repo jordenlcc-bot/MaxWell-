@@ -106,5 +106,8 @@ python run_experiment_2d.py
 
 ```
 
+你先确认这一版在 GitHub 上显示正常。  
+OK 之后，我下一步再给你一块“实验结果表格”的 Markdown，让你的成果一眼看得到。
+
 ```
 
