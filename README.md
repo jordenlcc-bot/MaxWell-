@@ -30,3 +30,7 @@
 git clone https://github.com/jordenlcc-bot/MaxWell-.git
 cd MaxWell-
 pip install -r requirements.txt
+
+python run_experiment_1d.py
+
+python run_experiment_2d.py
