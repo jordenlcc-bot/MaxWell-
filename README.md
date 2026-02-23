@@ -1,3 +1,7 @@
+# Maxwell Displacement Gating PINN
+
+基于 Maxwell 方程的位移门控物理神经网络实验（1D / 2D）。
+
 # MaxWell
 
 ## 项目介绍
@@ -15,3 +19,27 @@
 
 这个仓库的目标不是炫技，而是留下一个真实的学习过程：  
 我会把现在能跑通、验证过的结果都记录下来，将来给自己和别人参考。
+## 快速开始
+
+### 环境需求
+
+- Python 3.10+
+- PyTorch（支持 CUDA）
+- 一张支持 CUDA 的显卡（例如 RTX 3050）
+
+### 安装步骤
+
+```bash
+git clone https://github.com/你的用户名/maxwell-pinn-mvp.git
+cd maxwell-pinn-mvp
+pip install -r requirements.txt
+
+运行 1D 实验
+bash
+python run_experiment_1d.py
+
+运行 2D 实验
+bash
+python run_experiment_2d.py
+
+运行完成后，可以在 REPORT.md 中查看 1D / 2D 的 L2 误差和稀疏度结果。
