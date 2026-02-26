@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env
+.venv
+venv/
+ENV/
+
+# PyTorch & Data
+*.pt
+*.pth
+*.ckpt
+*.tflite
+*.onnx
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# Local results & logs (keep the structure but ignore contents except what's needed for baseline)
+# In this specific repo, results/ and figures/ contain paper figures which we WANT to track. 
+# So we only ignore large checkpoint files.
+benchmark_results.log
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
